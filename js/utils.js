@@ -68,8 +68,8 @@ const newGame = () => {
 
 // Increase X/Y Cells
 const increaseCells = () => {
-  let addCellsX = cellsHorizontal + 1;
-  let addCellsY = Math.floor((cellsHorizontal + 1) * 0.67);
+  let addCellsX = cellsHorizontal + 2;
+  let addCellsY = Math.floor((cellsVertical + 2) * 0.67);
 
   storage("cellsx", addCellsX);
   storage("cellsy", addCellsY);
